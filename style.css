@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(222, 201, 201);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+.homePage{
+    width: 400px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    
+
+}
+.bgVideo{
+    overflow: hidden;
+    object-fit: cover;
+    
+
+}
+.topbar{
+    position: absolute;
+    top: 0;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    
+
+}
+.topbar p{
+    margin: 3px;
+    padding: 3px;
+}
+
+.bottombar{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    background-color: blue;
+    width: 100%;
+    height: 40px;
+    
+    font-size: 2rem;
+}
+.bottombar img{
+    width: 2rem;
+}
+.rightbar{
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    height: 50%;
+    width: 2rem;
+    background-color: rgb(163, 162, 155);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.userName{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    color: white;
+    background-color: green;
+    
+    
+}
